@@ -1,4 +1,5 @@
 Task 1 - Markov is coming
+
  function [Labyrinth] = parse_labyrinth(file_path)
     La aceasta functie am citit dintr-un fisier liniile si coloanele, fiind primele doua elemente din fisier.
     Dupa aceea, cu ajutorul informatiilor oferite de acest link http://www.ece.northwestern.edu/local-apps/matlabhelp/techdoc/ref/fscanf.html
@@ -54,6 +55,7 @@ Task 1 - Markov is coming
     in decoded_path pozitia pe care se afla acesta. Daca gasesc valoarea starii WIN (lines * cols + 1) in path, trec mai departe.
 
 Task 2 - Linear Regression
+
  function [Y, InitialMatrix] = parse_data_set_file(file_path)
     Am citit numarul de linii si numarul de coloane din fisier, fiind primele 2 elemente din fisier, asa cum am procedat si la task-ul antrior. 
     Initializez Y cu zeros(m, 1) pentru ca acesta va contine doar date numerice, nu si stringuri ca in cazul lui InitialMatrix care va fi initializat
